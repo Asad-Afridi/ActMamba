@@ -145,7 +145,7 @@ Results are printed to stdout and saved to `result/{dataset_name}/`.
 │       ├── actmamba.py         # Main model with diffusion
 │       ├── backbone.py         # Mamba encoder and decoder modules
 │       ├── layers.py           # Multi-scale Mamba layers
-│       └── cross_mamba.py      # GC²-Mamba (cross-contextual SSM)
+│       └── gc2_mamba.py      # GC²-Mamba (gated cross-contextual Mamba)
 └── scripts/
     ├── train_all_splits.py     # Train all splits sequentially
     ├── compare_runs.py         # Compare results across runs
