@@ -1,7 +1,7 @@
 # ActMamba
 
 ## Overview
-> The source code, benchmark dataset, pretrained models, and detailed documentation will
+> The source code, benchmark datasets, pretrained models, and detailed documentation will
 > be publicly released upon completion of the editorial/review process of
 > the associated manuscript.
 
@@ -42,9 +42,9 @@ Compared with DiffAct++, ActMamba reduces FLOPs by 47.9%, accelerates inference 
 
 ActMamba is evaluated on three standard temporal action segmentation benchmarks:
 
-- [GTEA](https://cbs.ic.gatech.edu/fpv/) — Georgia Tech Egocentric Activities
-- [50Salads](https://cvip.computing.dundee.ac.uk/datasets/foodpreparation/50salads/) — 50 Salads activity recognition
-- [Breakfast](https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/) — Breakfast Actions Dataset
+- [GTEA](https://ieeexplore.ieee.org/abstract/document/5995444) — Georgia Tech Egocentric Activities
+- [50Salads](https://dl.acm.org/doi/abs/10.1145/2493432.2493482) — 50 Salads activity recognition
+- [Breakfast](https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Kuehne_The_Language_of_2014_CVPR_paper.html) — Breakfast Actions Dataset
 
 Download the I3D features and ground truth labels from the links provided in [MS-TCN](https://github.com/yabufarha/ms-tcn) or [ASFormer](https://github.com/ChinaYi/ASFormer).
 
