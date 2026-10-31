@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Training outputs
+result/
+chkpnt/
+*.model
+*.pt
+
+# TensorBoard
+events.out.tfsnowflake.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (too large for git)
+datasets/
